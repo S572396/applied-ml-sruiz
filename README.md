@@ -17,6 +17,12 @@ Read and follow the standard set up and work flow provided at Professional Analy
 - .gitignore - keep .venv and other stuff out of source control
 - README.md - introduction to this repository
 - requirements.txt - list of external packages used (read this)
+-Install dependencies:
+-.\.venv\Scripts\activate
+-py -m pip install --upgrade pip setuptools wheel
+-py -m pip install -r requirements.txt
+-pip install loguru
+-pip install python-dotenv
 
 ## Folders for Examples
 
