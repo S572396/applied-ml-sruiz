@@ -1,9 +1,7 @@
-# ml-01
+# ml-04
 
 ## Overview
-Businesses and organizations often need to understand the relationships between different factors to make better decisions.
-For example, a company may want to predict the fuel efficiency of a car based on its weight and engine size or estimate home prices based on square footage and location.
-Regression analysis helps identify and quantify these relationships between numerical features, providing insights that can be used for forecasting and decision-making.
+This project will work with a Mushroom dataset analyzing various features to determine which mushrooms are poisonous and which are edible. 
 
 This project demonstrates your ability to apply regression modeling techniques to a real-world dataset. You will:
 - Load and explore a dataset.
@@ -11,13 +9,13 @@ This project demonstrates your ability to apply regression modeling techniques t
 - Train a regression model and evaluate performance.
 - Compare multiple regression approaches.
 - Document your work in a structured Jupyter Notebook.
+- <C:\Users\19564\Desktop\MidTerm.Sruiz\applied-ml-sruiz\lab01\ml-04-mushroom.ipynb>
 
 ## Dataset 
-Housing Prices Dataset (Predict home values based on features like square footage and location)  
-- We use the built-in dataset from scikit-learn:  
-   - `from sklearn.datasets import fetch_california_housing`  
-- Additional dataset available on Kaggle:  
-   - [Kaggle Housing Prices](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)  
+ -https://archive.ics.uci.edu/dataset/73/mushroom
+ -C:\Users\19564\Desktop\MidTerm.Sruiz\applied-ml-sruiz\lab01\Data\mushroom_features.csv
+ -C:\Users\19564\Desktop\MidTerm.Sruiz\applied-ml-sruiz\lab01\Data\mushroom_targets.csv
+
 
 ## Python Library for Machine Learning: scikit-learn
 We use scikit-learn, built on NumPy, SciPy, and matplotlib
@@ -33,8 +31,8 @@ We use scikit-learn, built on NumPy, SciPy, and matplotlib
 
 ## Professional Python Setup and Workflow
 We follow professional Python practices. 
-Full instructions are available at <https://github.com/denisecase/pro-analytics-01/>. 
-A concise version is provided at [WORKFLOW_GUIDE.md](./docs/WORKFLOW_GUIDE.md)
+Full instructions are available at <https://github.com/denisecase/ml-04/blob/main/CLASSIFICATION_PROJECT.md>
+
 
 **Important:** VS Code + Pylance may fail to recognize installed packages in Jupyter notebooks.  
 See the above guides for troubleshooting and solutions.  
@@ -53,6 +51,9 @@ Start your notebook professionally with:
 - Import the external Python libraries used (e.g., pandas, numpy, matplotlib, seaborn, sklearn, etc.)
 
 Present your work in clearly numbered second-level and third-level headings
+-Notebook link:
+  
+
 
 ### Section 1. Load and Explore the Data
 - 1.1 Load the dataset and display the first 10 rows.
